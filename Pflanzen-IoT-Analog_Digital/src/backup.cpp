@@ -5,8 +5,6 @@
 #include <Arduino.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-#include <Wire.h>
-#include <BH1750.h>
 
 /*
 * DHT Sensor 
@@ -22,17 +20,10 @@ float h = 0.0;
 */
 #define SensorPin A0  // Poistion des Pins für den Bodenfeuchte Sensor [Capacitive Soil Moisture Sensor v1.2]
 
-/*
-* Lichtensor
-*/
-BH1750 lightMeter;
-
 void setup() 
 {
   Serial.begin(115200);
   dht.begin();
-  Wire.begin();
-  lightMeter.begin();
 }
 
 void loop() 
@@ -69,9 +60,7 @@ Serial.println(sensorValue);
 /*
 * Licht Sensor
 */
-float lux = lightMeter.readLightLevel();
-Serial.print("Lichtlevel: ");
-Serial.print(lux);
-Serial.print(" lx");
+
+
 delay(5000);
 }

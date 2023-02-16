@@ -1,0 +1,3 @@
+https://pflanzen-iot-default-rtdb.europe-west1.firebasedatabase.app/
+
+db-secret: fRXZ7Um2zG9QdcSgLfFg51TVJvHPC5yVLbEAxDLK

@@ -4,7 +4,7 @@
 #include <Wire.h>
 #include <BH1750.h>
 
-#define DHTPIN D1     
+#define DHTPIN D6 
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 float t = 0.0;

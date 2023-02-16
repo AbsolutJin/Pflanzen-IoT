@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "829914842374",
+    "firebase_url": "https://pflanzen-iot-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pflanzen-iot",
+    "storage_bucket": "pflanzen-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829914842374:android:24aca157bb5010401d4a87",
+        "android_client_info": {
+          "package_name": "com.example.pflanzen_iot_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrer6SNZI_JHXpJMmP5lOP5cLwFNR_BhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
